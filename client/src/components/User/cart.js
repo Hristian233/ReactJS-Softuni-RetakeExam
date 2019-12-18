@@ -9,8 +9,6 @@ import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import faFrown from '@fortawesome/fontawesome-free-solid/faFrown'
 import faSmile from '@fortawesome/fontawesome-free-solid/faSmile'
 
-/// ATvuDNZhF13Lt5-sphBgbLgwH2qQAk5olRS7Ik5s0IPM4CdVlKar1vIjS2yvmBJYi71fKYPvczGdEcn2
-
 import Paypal from '../utils/paypal';
 
 class UserCart extends Component {

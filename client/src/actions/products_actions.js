@@ -37,7 +37,6 @@ export function clearProductDetail(){
 }
 
 export function getProductsBySell(){
-    //?sortBy=sold&order=desc&limit=100
     const request = axios.get(`${PRODUCT_SERVER}/articles?sortBy=sold&order=desc&limit=4`)
                     .then(response => response.data);
 
@@ -101,11 +100,6 @@ export function clearProduct(){
         payload: ''
     }
 }
-
-////////////////////////////////////
-//////        CATEGORIES
-////////////////////////////////////
-
 
 export function getBrands(){
 

@@ -9,7 +9,7 @@ import faEnvelope from '@fortawesome/fontawesome-free-solid/faEnvelope';
 
 const Footer = ({data}) => {
     return (
-        data.siteData ?
+        data.siteData && data.siteData[0] ?
         <footer className="bck_b_dark">
             <div className="container">
                 <div className="logo">
