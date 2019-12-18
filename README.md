@@ -1,1 +1,1 @@
-# ReactJS-Softuni-RetakeExam
+# reactjs-basics
