@@ -11,15 +11,15 @@ const getEmailData = (to,name,token,template,actionData) =>{
     switch(template){
         case "welcome":
             data = {
-                from: "Waves <waves.guitars.rev@gmail.com>",
+                from: "Cars <hristiyanyanev23@gmail.com>",
                 to,
-                subject: `Welcome to waves ${name}`,
+                subject: `Welcome to Cars ${name}`,
                 html: welcome()
             }
         break;
         case "purchase":
             data = {
-                from: "Waves <waves.guitars.rev@gmail.com>",
+                from: "Cars <hristiyanyanev23@gmail.com>",
                 to,
                 subject: `Thanks for shopping with us ${name}`,
                 html: purchase(actionData)
@@ -27,7 +27,7 @@ const getEmailData = (to,name,token,template,actionData) =>{
         break;
         case "reset_password":
             data = {
-                from: "Waves <waves.guitars.rev@gmail.com>",
+                from: "Cars <hristiyanyanev23@gmail.com>",
                 to,
                 subject: `Hey ${name}, reset your pass`,
                 html: resetPass(actionData)
